@@ -1,0 +1,255 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+  background-color: #F8F8F8;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+   width: 100%;
+
+}
+.link ul{
+    display: flex;
+    margin-top: 20px;
+
+}
+.link ul li{
+list-style: none;
+padding: 7px;
+
+
+}
+.button .link-signin {
+font-weight: bold;
+color: #02a95c;
+}
+
+
+.button ul{
+    display: flex;
+    margin-top: 20px;
+}
+.button ul li{
+  list-style: none;
+  padding: 7px;
+}
+.button a{
+    color: #000000;
+    text-decoration: none;
+   
+}
+.button .btn{
+   background-color:#02a95c;
+   color: white;
+   box-shadow: none;
+   
+   
+}
+.button .btn:hover{
+   background-color:#018d4c;
+ 
+
+   
+}
+.logo img{
+    width: 100px;
+}
+
+
+/* bannar */
+.container-2{
+margin-top: 70px;
+   background-color: whitesmoke;
+   /* display: flex; */
+   
+}
+.bannar{
+    display: flex;
+    
+    height: 500px;
+       justify-content: space-around;
+       align-items: center;
+     
+    
+}
+.image-1 img{
+    width:400px;
+    /* margin-top: 90px; */
+    border-radius: 10px;
+
+}
+.content h4{
+    color: gray;
+   
+  }
+.content .btn{
+    background-color:#02a95c;
+    color: white;
+    box-shadow: none;
+    font-size: 25px;
+  }
+.content .btn{
+    background-color:#018d4c;
+  }
+
+
+
+
+
+
+ 
+  /* section */
+
+
+.container-3{
+    background-color:#FFFFFF;
+}
+
+
+  .section{
+      display: flex;
+      justify-content: center;
+      /* border: 3px solid black; */
+
+
+  }
+  
+ 
+  .box{
+    border: 2px solid black;
+    background-color: #FFFFFF;
+      width: 300px; 
+      /* text-align: center; */
+    
+      margin: 20px;
+      border-radius: 10px;
+     
+  }
+  .box h5,p,h6{
+      padding-left: 15px;
+      
+  }
+  .box h5{
+      margin-top: 10px;
+      font-size: 20px;
+   
+      
+  }
+  .box h5 span{
+  color: rgb(2, 169, 92);
+      
+  }
+  .containert-3 h3{
+      margin-top: 40px;
+      margin-left:200px;
+  }
+
+  .box img{
+    /* border: 2px solid rgb(192, 192, 192); */
+    border-radius: 6px;
+   
+  }
+
+  .box div {
+      border: 2px solid #02a95c;
+      width: 250px;
+      margin: auto;
+      border-radius: 2px;
+  }
+
+  .detail-button{
+      background-color: #018d4c;
+  margin-left: auto ;
+  margin-right: 9px;
+  margin-bottom: 9px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  display: block;
+  padding: 7px;
+ 
+
+  }
+
+
+
+
+  /* fundraising-bottom */
+
+  .fundraising-bottom{
+      border-bottom: 2px solid #dbdbdb;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      background-color: #fbf8f6;
+  }
+  .fundraising-bottom p{
+    
+      font-size: 25px;
+      font-weight: 20;
+
+  }
+  .fundraising-bottom .btn{
+   padding: 11px;
+   width: 200px;
+ border: none;
+ box-shadow: none;
+ font-size: 20px;
+ margin-top: 20px;
+ background-color: #02a95c;
+ color: white;
+
+  }
+  .fundraising-bottom .btn:hover{
+background-color:#018d4c;
+
+  }
+
+
+
+
+
+  .footer {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 300px;
+  }
+  .footer-logo {
+      margin-bottom: 100px;
+
+  }
+  .footer-logo img{
+      width: 100px;
+      margin-bottom: 15px;
+  }
+
+span{
+  color: #02a95c;
+  
+}
+ h5{
+  font-weight: bold;
+  
+}
+
+.FUNDRAISE-FOR li{
+    list-style: none;
+    padding: 4px;
+}
+.RESOURCES li{
+    list-style: none;
+    padding: 4px;
+}
+.LEARNMORE li{
+    list-style: none;
+    padding: 4px;
+}

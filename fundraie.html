@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraising </title>
+    <style>
+        body {
+            background-color: rgb(232, 239, 243);
+        }
+
+        .card {
+            border: 2px solid rgb(232, 239, 243);
+            width: 400px;
+            margin: 150px auto;
+            height: 570px;
+            /* text-align: center; */
+            border-radius: 8px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 6px 3px 10px gray;
+        }
+
+        .card label {
+            margin-left: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #00a558;
+
+        }
+       .top-heading h1{
+text-align: center;
+
+        }
+
+        .card input {
+            width: 300px;
+            margin-left: 30px;
+            margin-top: 7px;
+            margin-bottom: 7px;
+            padding: 15px;
+            border: 1px solid #02a95c;
+            border-radius: 3px;
+            font-size: 15px;
+        }
+
+        .card input:focus {
+            border: none;
+            outline: 1px solid #02a95c;
+        }
+
+        .card textarea {
+            margin-left: 30px;
+            border: 1px solid #02a95c;
+            border-radius: 3px;
+
+        }
+
+        .card textarea:focus {
+            border: none;
+            outline: 1px solid #02a95c;
+        }
+
+        .first-input {
+            margin-top: 50px;
+
+
+        }
+
+        .button {
+            /* border: 1px solid black; */
+            width: 250px;
+            margin: 20px auto;
+            /* height: 50px; */
+            color: rgb(255, 255, 255);
+            background: linear-gradient(to right, rgb(255, 221, 127), rgb(216, 149, 3));
+            text-align: center;
+            padding-top: 5px;
+            font-size: 25px;
+            font-weight: bold;
+            border-radius: 4px;
+            padding: 20px;
+
+
+        }
+
+        .button:hover {
+
+            background: rgb(216, 149, 3);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+<div class="top-heading">
+    <h1>Start a Fundraising</h1>
+</div>
+
+            <div class="first-input">
+                <label for="fname">Title:</label><br>
+                <input type="text" placeholder=" Title">
+            </div>
+
+            <div class="Second-input">
+                <label for="fname">Subtitle:</label><br>
+                <input type="text" placeholder="SubTitle">
+            </div>
+
+            <div class="Third-input">
+                <label for="fname">Required Amount:</label><br>
+                <input type="text" placeholder="Required Amount">
+            </div>
+            <div class="forth-input">
+                <label for="fname">Enter Your Message:</label><br>
+                <textarea name="" id="" cols="42" rows="4">Enter Your Message</textarea>
+            </div>
+
+            <div class="button">Go to FundMe</div>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
